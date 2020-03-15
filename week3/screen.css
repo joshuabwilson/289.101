@@ -1,0 +1,184 @@
+/*JoshuaB.Wilson Week 3 Website Challenge*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+background-color: #82DDB5;
+background-image: url('img/illustration.gif'), url('img/texture.jpg');
+background-position: center 280px, left top;
+background-repeat: no-repeat, repeat-x;
+background-size: 800px, auto;
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+}
+#nav {
+background-color: #6B9;
+border-bottom: 2px dashed #487;
+color: white;
+font-weight: bold;
+padding: 20px 0;
+text-align: center;
+word-spacing: 2em;
+}
+#header {
+text-align: center;
+margin-top: 40px;
+}
+#logo {
+max-width: 360px;
+}
+#description, #date {
+max-width: 220px;
+}
+.register_btn {
+background-color: #E43;
+border: 2px dashed #A43;
+border-radius: 2em;
+color: #FFF;
+cursor: pointer;
+display: inline-block;
+font-weight: bold;
+margin-top: 25px;
+padding: 15px 30px;
+}
+h1{
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: center;
+    text-shadow: -2px -2px 0 rgba(255,255,255,0.5), 2px -2px 0 rgba(255,255,255,0.5), -2px 2px 0 rgba(255,255,255,0.5), 2px 2px 0 rgba(255,255,255,0.5);  
+}
+h2{
+    font-size: 1.2em;
+    margin-top: 1.4em;
+    text-align: center;
+}
+h3{
+    font-weight: normal;
+}
+hr{
+    background-color: red;
+  background-image: url('img/header-bg.jpg');
+  border: none;
+  display: block;
+  height: 1px;
+}
+p {
+    font-size: 0.9rem;
+    line-height: 1.5em;
+}
+.section {
+  margin-left: -2%;
+  overflow: hidden;
+  width: 104%;
+}
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 980px;
+  padding: 2.5em 1.5em;
+}
+.container ol {
+  padding: 0 1em;
+}
+.container li {
+  display: list-item;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
+  padding-left: 0.5em;
+}
+.container .sect_cont {
+  width: 100%;
+}
+.container .sect_cont a {
+  color: #C21;
+}
+.container .sect_cont .col-1 {
+  clear: both;
+  width: 100%;
+}
+.container .sect_cont .col-2 {
+  width: 100%;
+}
+
+
+/*WhatSection*/
+#what{
+        background-color: rgba(205,240,225,0.9);
+        color: #378;    
+}
+#what .sponsors{
+    text-align: center;
+}
+#what. sponsors img{
+    height: 4em;
+    max-width: 13em;
+    padding: 0.5em;
+}
+/*WhySection*/
+#why{
+    background-color: rgba(205,240,225,0.7);
+    color: #378; 
+}
+/*WhereSection*/
+#where{
+    background-color: #FFE4FE;
+    background-image: url(img/map.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 400px;
+    color: #378;
+    height: 400px;
+    margin-top: -10px;
+    position: relative;
+}
+#where a {
+    display: block;
+    height: 100%;
+}
+#where .container{
+    height:  100%;   
+}
+.container{
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 980px;
+    padding: 2.5em 1.5em;
+}
+.section{
+    margin-left: -2%;
+    overflow: hidden;
+    width: 104%;
+}
+.label_txt span{
+    background-color: #B48;
+    line-height: 2em;
+    padding: 0.2em;
+    }
+/*WhenSection*/
+#when{
+    background-color: #499;
+    background-image: url(img/branding-illustration-characters.gif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    color: #FFF;
+    padding-bottom: 4em;   
+}
+#when .container{
+    transform: none;
+}
+#when h1{
+    text-shadow: none;
+    ;
+}
+/*WhoSection*/
+#who{
+    background-color: :#F5F5F5;
+    color:#388;
+}
+
+#footer{
+    text-align: center;
+}
